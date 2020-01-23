@@ -1,0 +1,87 @@
+@media (min-width: 1000px) {
+	.header-title h1 {
+		font-size: 5vw;
+	}
+
+	.nav-link {
+		font-size: 2vw;
+	}
+
+	.article-header h1 {
+		font-size: 2vw;
+	}
+
+	.article-item {
+		grid-template-columns: repeat(2, 45vw);
+		justify-content: center;
+		grid-column-gap: 2vw;
+	}
+
+	.article-content {
+		flex-direction: column;
+	}
+
+	.article-img {
+		width: 40vw;
+	}
+
+	.article-name h2 {
+		font-size: 2vw;
+	}
+
+	.article-name h6 {
+		font-size: 1.1vw;
+	}
+
+	.article-paragraph p {
+		font-size: 1.1vw;
+	}
+
+	.author-data img {
+		width: 3vw;
+		height: 3vw;
+	}
+
+	.author-data h3 {
+		font-size: 1.2vw;
+	}
+
+	.learn-more a {
+		font-size: 1.1vw;
+		padding: 1vw;
+	}
+
+	footer h5 {
+		font-size: 1.5vw;
+	}
+
+	input {
+		font-size: 1.2vw;
+		margin: 0.8vw;
+	}
+
+	[type="text"], [type="email"] {
+		padding: 0.5vw;
+	}
+
+	.icon {
+		width: 3vw;
+	}
+
+	button {
+		font-size: 1.1vw;
+		padding: 0.5vw;
+
+	}
+
+	.img {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	figcaption {
+		font-size: 1.2vw;
+	}
+}
